@@ -1,0 +1,8 @@
+new entry "DoL_Command_Ring"
+type "Armor"
+using "_Ring"
+data "RootTemplate" "a8495b6d-822a-423d-8f2a-4c2cd1eb096c"
+data "ObjectCategory" "Jewelry"
+data "ValueOverride" "6"
+data "Rarity" "Legendary"
+data "Boosts" "UnlockSpell(Shout_Summon_Daughter_of_Lolth);UnlockSpell(Shout_Influence_Daughter_of_Lolth)"

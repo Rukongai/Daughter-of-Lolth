@@ -1,0 +1,29 @@
+new treasuretable "DEN_Entrance_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_DoL_Command_Ring",1,0,0,0,0,0,0,0
+
+new treasuretable "HAV_HarperQuarterMaster"
+CanMerge 1
+new subtable "1,1"
+object category "I_DoL_Command_Ring",1,0,0,0,0,0,0,0
+
+new treasuretable "HAV_Weaponsmith_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_DoL_Command_Ring",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_Weaponsmith_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_DoL_Command_Ring",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_JewelTrader"
+CanMerge 1
+new subtable "1,1"
+object category "I_DoL_Command_Ring",1,0,0,0,0,0,0,0
+
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_DoL_Command_Ring",1,0,0,0,0,0,0,0

@@ -1,0 +1,7 @@
+new entry "BOL_BOOK_OBJ_BookofLolth"
+type "Object"
+using "OBJ_Book"
+data "RootTemplate" "079fd887-8ac8-4929-9380-d2f06e0027d7"
+data "ValueOverride" "1"
+data "Rarity" "Legendary"
+data "Vitality" "25"
