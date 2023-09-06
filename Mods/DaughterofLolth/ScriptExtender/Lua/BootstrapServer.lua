@@ -62,7 +62,7 @@ function patchCheck()
 end
 
 function SummonMinthara()
-    Osi.DB_KnockedOut_RestoreProperties(Minthy, 1, 1, 1)
+    Osi.DB_KnockedOut_RestoreProperties(Minthy, 1, 1, 0)
     Osi.PROC_StateSet_Defeated(Minthy)
     Osi.DB_PermaDefeated:Delete(Minthy)
     Osi.DB_PreventPermaDefeated(Minthy)
@@ -121,7 +121,7 @@ Ext.Osiris.RegisterListener("PROC_CampNight_ForceComplete", 1, "after", function
     end
 end)
 
-Ext.Osiris.RegisterListener("DB_SelectedDialog", 7, "after", function (sp1, sp2, sp3, sp4, sp5, sp6, sp7)
+Ext.Osiris.RegisterListener("DB_SelectedDialog", 7, "before", function (sp1, sp2, sp3, sp4, sp5, sp6, sp7)
     spk1 = "MOO_Execution_2b2f9929-86da-50b1-c796-7d3e485ed901"
     spk2 = "S_MOO_Execution_Drow_8e75eb3b-7551-485e-8f98-2bf2e51d3e84"
     spk3 = "S_MOO_Ketheric_e9918f3e-5b87-40a3-a9bd-61545151573f"
